@@ -1,0 +1,102 @@
+// out: "../css/style.css", compress: true, sourceMap: false
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+body {
+    border: 1px black solid;
+    margin: 5px;
+    
+}
+header {
+    display: grid;
+    grid-template-columns: 150px 1fr 2fr;
+    height: 150px;
+    h1{ 
+    font-family:'Dancing Script', cursive;
+    text-transform: uppercase;
+    text-align: center;
+    color: #5E17EB;
+    line-height: 110px;
+
+}
+    img{
+    width: 150px;
+    height: 150px;
+}
+    nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none; 
+    line-height: 110px;
+    margin-left: 20px;
+}
+    a {
+    text-decoration: none;
+}
+    .navbar ul li .menu-bar {
+    display: none;
+    border: 1px solid red;
+}
+    .navbar ul li:hover .menu-bar{
+        display: block;
+        position: absolute;
+
+    
+}
+    .navbar ul li:hover .menu-bar ul li{
+ 
+    border-bottom: 1px solid gray;
+    text-align: left;
+    
+}
+    .navbar ul li:hover .menu-bar ul li:last-child{
+    border-bottom: none;
+}
+
+
+}
+
+.content{
+    background-image: url("");
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    section {
+        display: inline-block;
+    }
+    section article {
+        border: 1px black solid;
+        border-radius: 20px;
+        margin: 10px;
+        padding: 10px;
+        text-decoration: none;
+        box-shadow: 0px 3px 3px 0px;
+    }
+    section article p {
+        color: red;
+    }
+    section aside {
+        margin: 10px;
+    }
+    section h2 {
+        margin: 10px;
+        background: -webkit-linear-gradient(30DEG, #5E17EB, white);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-transform:capitalize;
+    }
+    a{
+        text-decoration: none;
+    }
+}
+
+main section aside video {
+    margin: 10px;
+    width: 300px;
+    height: 500px;
+}
+
+footer {
+    margin: 10px;
+}
+ 

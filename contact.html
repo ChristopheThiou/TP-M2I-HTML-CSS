@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contatc.css">
+    <link rel="shortcut icon" href="image/LUL.jpg" type="image/x-icon">
+    <title>Cuisine du Monde</title>
+
+</head>
+<body>
+    <header>
+        <img src="image/logoheader.png" alt="">
+        <h1>La cuisine du monde </h1>
+        <NAV class="navbar">
+            <UL>
+                <li><a href="index.html">Acceuil</a></li>
+                <li><a href="#">Univers</a>
+                    <DIV class="menu-bar">
+                        <ul>
+                            <li><a href="" target="_blank">ASIE</a></li>
+                            <li><a href="" target="_blank">EUROPE</a></li>
+                            <li><a href="" target="_blank">MAGHREB</a></li>
+                        </ul>
+                    </DIV>
+                </li>
+                <li> <a href="#">Contact</a></li>
+            </UL>
+        </NAV>   
+    </header>
+        <hr>
+    <main class="content">
+            <section>
+            <aside>
+                <form action="#" method="get">
+                    <label for="search">Rechercher</label>
+                    <input type="text" placeholder="ton message ne sera pas lu">
+                </form>
+                <video controls autoplay muted loop preload="auto"  src="image/reel.mp4" type="video/ogg" id="idvideo"></video>
+            </aside>
+            </section>
+            <section>
+                <h2>Contactez-nous</h2>
+               <form action="#" method="get" class="form">
+                <label for="lastname">Nom</label>
+                <input type="text" id="lastname" name="lastname" required>
+                <label for="firstname">Prénom</label>
+                <input type="text" id="firstname" name="firstname" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Votre message</label>
+                <textarea id="message" name="message" placeholder="Entrez votre message" required></textarea> 
+                <button type="submit"> Envoyer</button>
+               </form> 
+            </section>
+    </main>
+    <hr>
+    <footer>
+<p>&copy; 2023 la cuisine du monde </p>
+    </footer>
+</body>
+</html>
