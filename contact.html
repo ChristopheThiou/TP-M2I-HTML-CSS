@@ -11,52 +11,54 @@
 
 </head>
 <body>
-    <header>
-        <img src="image/logoheader.png" alt="">
-        <h1>La cuisine du monde </h1>
-        <NAV class="navbar">
-            <UL>
-                <li><a href="index.html">Acceuil</a></li>
-                <li><a href="#">Univers</a>
-                </li>
-                <li> <a href="#">Contact</a></li>
-            </UL>
-        </NAV>   
-    </header>
-        <hr>
-    <main class="content">
-            <section>
-                <aside>
-                    <form action="#" method="get">
-                        <input type="search" placeholder="search" name="search" rel="search" class="icon">
-                        <button type="submit">Rechercher</button>
-                        <button type="reset">Effacer</button>
-                    </form>
-                    <video controls autoplay muted loop ="auto"  src="image/reel.mp4" type="video/ogg" id="idvideo"></video>
-                </aside>
-            </section>
-            <section>
-                <h1 class="plat">Contactez-nous</h1 class="plat">
-               <form action="#" method="get" class="form">
-                <label for="lastname">Nom</label>
-                <input type="text" id="lastname" name="lastname" required>
-                <label for="firstname">Prénom</label>
-                <input type="text" id="firstname" name="firstname" required>
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Votre message</label>
-                <textarea id="message" name="message" placeholder="Entrez votre message" required></textarea> 
-                <button type="submit"> Envoyer</button>
-               </form> 
-            </section>
-    </main>
-    <hr>
-    <footer>
-<p>&copy; 2023 la cuisine du monde </p>
-<a href="https://www.facebook.com/profile.php?id=100079040089606" target="_blank"><img src="image/facebook - Copie.png" alt=""></a>
-            <a href="https://www.instagram.com/nesrine_ishak/?hl=fr" target="_blank"><img src="image/instagram.png" alt=""></a>
-            <a href="https://www.twitter.com" target="_blank"><img src="image/icons8-twitter-16.png" alt=""></a>
+    <header class="headercontent">
+        <img src="image/logoheader.png" alt="" id="logo">
+        <h1 class="Titre">La cuisine du monde </h1>
+   <NAV class="navbar">
+       <UL class="liste">
+           <li><a href="index.html">Accueil</a></li>
+            <li><a href="platasiatique.html">Univers</a></li>
+            <li> <a href="contact.html">Contact</a></li>
+       </UL>
+   </NAV>   
+</header>
+<hr>
+        <section class="sectioncontent">
+            <ASIDE class="Gpart">
+                <form action="#" method="get" class="form">
+                    <input type="search" placeholder="search" name="search" rel="search" id="icon">
+                </form>
+                    <video controls autoplay muted loop ="auto"  src="image/reel.mp4" type="video/ogg" id="video"></video>
+            </ASIDE>
+            <MAIN class="MainContent">
+                <h1 class="Plat">Contactez-nous</h1>
+               <form action="#" method="get" class="formContact">
+                    <label for="lastname" class="label">Nom</label>
+                    <input type="text" id="lastname" name="lastname"  placeholder="Votre nom" required autofocus>
+                
+                    <label for="firstname" class="label">Prénom</label>
+                    <input type="text" id="firstname" name="firstname" placeholder="Votre prenom" required>
+                
+                    <label for="email" class="label">Email</label>
+                    <input type="email" id="email" name="email" placeholder="exemple@gmail.com" required>
 
-    </footer>
+                    <label for="date" class="label">Date</label>
+                    <input type="date" id="date" name="date" required>
+                
+                    <label for="message" class="label">Votre message</label>
+                    <textarea id="message" name="message" placeholder="Entrez votre message" required></textarea> 
+                
+                    <button type="submit" id="Envoyer"> Envoyer</button>
+               </form>
+            </MAIN>
+        </section>
+
+    <hr>
+    <footer class="FooterContent">
+        <p>&copy; 2023 la cuisine du monde </p>
+        <a href="https://www.facebook.com/profile.php?id=100079040089606"  target="_blank"><img src="image/facebook - Copie.png" alt=""></a>
+        <a href="https://www.instagram.com/nesrine_ishak/?hl=fr" alt="" target="_blank"><img src="image/instagram.png" alt=""></a>
+        <a href="https://www.twitter.com" alt="" target="_blank"><img src="image/icons8-twitter-16.png" alt=""></a>
+</footer>
 </body>
 </html>
